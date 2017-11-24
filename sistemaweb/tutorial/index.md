@@ -1,4 +1,8 @@
-# Tutorial Rails- Do Zero ao Deploy
+---
+
+title: Tutorial Rails- Do Zero ao Deploy
+
+--
 
 ## Sobre o Rails
 
