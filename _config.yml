@@ -1,1 +1,4 @@
 theme: jekyll-theme-architect
+plugins:
+  - jemoji
+title: Tutorial Rails- Do Zero ao Deploy

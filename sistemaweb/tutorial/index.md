@@ -1,9 +1,3 @@
----
-
-title: Tutorial Rails- Do Zero ao Deploy
-
---
-
 ## Sobre o Rails
 
 Ruby on Rails, ou simplesmente Rails, é um framework web escrito na linguagem Ruby. Alguns sites que usam Rails incluem GitHub, Basecamp, Airbnb e Scribd.
