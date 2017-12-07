@@ -5,7 +5,7 @@ Neste tutorial iremos criar uma coonta gratuita no Cloud9 para utilizarmos no wo
 
 ## Configurando o ambiente Cloud9
 - Acesse o link [Edx Course](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) para se registrar na plataforma Edx que disponibiliza cursos.
-- Clique na Opção [SING UP](https://courses.edx.org/register) para se cadastrar.
+- Clique na Opção [REGISTER](https://courses.edx.org/register) para se cadastrar.
 - Logue com alguma conta google ou rede social ativa, como é sugerido na imagem.
 ![imagem1](/imagens/Imagem1.png)
 
