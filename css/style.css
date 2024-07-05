@@ -865,18 +865,25 @@ blockquote {
 
 /*# sourceMappingURL=maps/style.css.map */
 .section button {
-  border: none;
-  border-radius: 99px;
   color: white;
-  background: #1d90f5;
+  background: #41228e;
   cursor: pointer;
   transition: 0.3s;
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  padding: 16px 44px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: 0;
+  position: relative;
+
 }
 
 .sectionbutton:hover,
 button:focus {
   outline: none;
-  background: #1c70d3;
+  background: #542cb7;
 }
 
 .section button:disabled {
@@ -890,7 +897,7 @@ button:focus {
 }
 
 .success {
-  color: greenyellow;
+  color: #41228e;
 }
 
 .error {
