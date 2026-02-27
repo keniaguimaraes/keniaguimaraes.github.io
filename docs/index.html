@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolso em Dia - Guia Completo de Uso</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 4px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+        }
+        
+        h3 {
+            color: #2c3e50;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+        
+        th {
+            background: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        
+        .success {
+            background: #d4edda;
+            padding: 15px;
+            border-left: 4px solid #28a745;
+            margin: 20px 0;
+        }
+        
+        .warning {
+            background: #f8d7da;
+            padding: 15px;
+            border-left: 4px solid #dc3545;
+            margin: 20px 0;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        .toc {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 30px 0;
+        }
+        
+        .toc h3 {
+            margin-top: 0;
+        }
+        
+        .toc ol {
+            margin-left: 20px;
+        }
+        
+        .page-break {
+            page-break-after: always;
+            margin: 40px 0;
+            border-top: 3px dashed #bbb;
+            padding-top: 40px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .container {
+                box-shadow: none;
+                max-width: 100%;
+            }
+            
+            .page-break {
+                page-break-after: always;
+            }
+        }
+        
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #7f8c8d;
+            font-size: 0.9em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Bolso em Dia</h1>
+        <h1 style="font-size: 1.8em; border: none; margin-top: 0;">Guia Completo de Uso</h1>
+        <p class="subtitle">Versão 1.0 | Atualizado em: 27 de fevereiro de 2026</p>
+        
+        <div class="toc">
+            <h3>📑 Sumário</h3>
+            <ol>
+                <li>Introdução</li>
+                <li>Primeiros Passos</li>
+                <li>Dashboard</li>
+                <li>Importação de Extratos</li>
+                <li>Rastreamento de Despesas</li>
+                <li>Gerenciamento de Categorias</li>
+                <li>Base de Treinamento</li>
+                <li>Pesquisa e Filtros</li>
+                <li>Edição em Massa</li>
+                <li>Cartões de Crédito</li>
+                <li>Dicas e Boas Práticas</li>
+                <li>Troubleshooting</li>
+            </ol>
+        </div>
+        
+        <div class="page-break"></div>
+        
+        <h2>📖 Introdução</h2>
+        <p><strong>Bolso em Dia</strong> é um sistema inteligente de rastreamento de despesas que utiliza inteligência artificial para categorizar automaticamente suas transações. O sistema aprende com o tempo, ajustando-se aos seus padrões de gasto.</p>
+        
+        <h3>✨ Principais Funcionalidades</h3>
+        <ul>
+            <li><strong>Categorização Inteligente</strong>: IA aprende e sugere categorias automaticamente</li>
+            <li><strong>Importação de Extratos</strong>: Suporta Nubank e C6</li>
+            <li><strong>Rastreamento Detalhado</strong>: Visualize todas as suas transações</li>
+            <li><strong>Filtros Avançados</strong>: Pesquise e filtre por múltiplos critérios</li>
+            <li><strong>Edição em Massa</strong>: Altere várias transações de uma vez</li>
+            <li><strong>Autenticação Segura</strong>: Login com Google OAuth2</li>
+        </ul>
+        
+        <h2>🚀 Primeiros Passos</h2>
+        
+        <h3>1. Acessar o Sistema</h3>
+        <ul>
+            <li>Acesse o sistema em seu navegador</li>
+            <li>Clique em <strong>"Continuar com Google"</strong></li>
+            <li>Autorize o acesso com sua conta Google</li>
+        </ul>
+        
+        <h3>2. Setup Inicial</h3>
+        <p>Após o primeiro login, recomendamos:</p>
+        
+        <h4>Configurar Cartões de Crédito</h4>
+        <ol>
+            <li>Vá para: <strong>Cartões de Crédito</strong> (menu lateral)</li>
+            <li>Clique em <strong>Adicionar Novo Cartão</strong></li>
+            <li>Insira: Nome do cartão, Banco, Dígitos finais</li>
+            <li>Salve</li>
+        </ol>
+        
+        <h4>Criar Categorias Personalizadas</h4>
+        <ol>
+            <li>Vá para: <strong>Categorias</strong> (menu lateral)</li>
+            <li>Clique em <strong>Nova Categoria</strong></li>
+            <li>Dê um nome descritivo (ex: "Alimentação", "Transporte")</li>
+        </ol>
+        
+        <h4>Importar Primeiro Extrato</h4>
+        <ol>
+            <li>Vá para: <strong>Importar CSV</strong> (menu lateral)</li>
+            <li>Selecione o banco: Nubank ou C6</li>
+            <li>Faça upload do arquivo CSV exportado do seu banco</li>
+        </ol>
+        
+        <div class="page-break"></div>
+        
+        <h2>📊 Dashboard</h2>
+        
+        <h3>Visão Geral</h3>
+        <p>O Dashboard exibe um resumo geral das suas finanças com cards informativos e gráficos.</p>
+        
+        <h3>Componentes Principais</h3>
+        <table>
+            <tr>
+                <th>Card</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Total Gasto</strong></td>
+                <td>Soma de todas as despesas do período</td>
+            </tr>
+            <tr>
+                <td><strong>Por Cartão</strong></td>
+                <td>Quanto você gastou em cada cartão</td>
+            </tr>
+            <tr>
+                <td><strong>Por Categoria</strong></td>
+                <td>Distribuição de gastos por categoria</td>
+            </tr>
+            <tr>
+                <td><strong>Últimas Transações</strong></td>
+                <td>10 transações mais recentes</td>
+            </tr>
+        </table>
+        
+        <h3>Filtros do Dashboard</h3>
+        <ul>
+            <li><strong>Período</strong>: Selecione mês e ano</li>
+            <li><strong>Cartão</strong>: Filtre por cartão específico</li>
+            <li><strong>Categoria</strong>: Veja gastos de uma categoria</li>
+            <li><strong>Status</strong>: Veja transações confirmadas ou pendentes</li>
+        </ul>
+        
+        <h2>📥 Importação de Extratos</h2>
+        
+        <h3>Bancos Suportados</h3>
+        <div class="success">
+            <strong>✅ Suportados:</strong>
+            <ul style="margin-top: 10px;">
+                <li>Nubank (Débito e Crédito)</li>
+                <li>C6 Bank (Débito e Crédito)</li>
+            </ul>
+        </div>
+        
+        <h3>Como Importar</h3>
+        
+        <h4>Passo 1: Exportar do Banco</h4>
+        <p><strong>Para Nubank:</strong></p>
+        <ol>
+            <li>Abra o app do Nubank</li>
+            <li>Vá para: Saques → Extrato</li>
+            <li>Clique em ⋮ → Baixar Extrato (CSV)</li>
+            <li>Escolha a data de início e fim</li>
+        </ol>
+        
+        <p><strong>Para C6:</strong></p>
+        <ol>
+            <li>Acesse o C6 Online</li>
+            <li>Vá para: Extratos</li>
+            <li>Clique em Baixar → CSV</li>
+            <li>Escolha o período desejado</li>
+        </ol>
+        
+        <h4>Passo 2: Importar no Sistema</h4>
+        <ol>
+            <li>Menu → <strong>Importar CSV</strong></li>
+            <li>Selecione o banco: <strong>Nubank</strong> ou <strong>C6</strong></li>
+            <li>Clique em <strong>Selecionar Arquivo</strong></li>
+            <li>Escolha o arquivo <code>.csv</code> baixado</li>
+            <li>Clique em <strong>Importar</strong></li>
+        </ol>
+        
+        <h4>Passo 3: Revisar Categorização</h4>
+        <p>O sistema vai:</p>
+        <ul>
+            <li>✅ Carregar todas as transações</li>
+            <li>✅ Categorizar automaticamente baseado no histórico</li>
+            <li>✅ Mostrar um resumo de quantas foram categorizadas</li>
+        </ul>
+        
+        <div class="page-break"></div>
+        
+        <h2>📍 Rastreamento de Despesas</h2>
+        
+        <h3>Visualizar Transações</h3>
+        <ol>
+            <li>Menu → <strong>Rastrear Despesas</strong></li>
+            <li>A tela mostra uma tabela com todas as transações</li>
+        </ol>
+        
+        <h3>Colunas da Tabela</h3>
+        <table>
+            <tr>
+                <th>Coluna</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><strong>Data</strong></td>
+                <td>Quando a transação ocorreu</td>
+            </tr>
+            <tr>
+                <td><strong>Descrição</strong></td>
+                <td>O que foi gasto (ex: "PADARIA CENTRAL")</td>
+            </tr>
+            <tr>
+                <td><strong>Valor</strong></td>
+                <td>Quanto foi gasto</td>
+            </tr>
+            <tr>
+                <td><strong>Cartão</strong></td>
+                <td>Em qual cartão foi debitado</td>
+            </tr>
+            <tr>
+                <td><strong>Categoria</strong></td>
+                <td>Categoria atual da transação</td>
+            </tr>
+            <tr>
+                <td><strong>Status</strong></td>
+                <td>Confirmado / Pendente</td>
+            </tr>
+        </table>
+        
+        <h3>Ações Rápidas</h3>
+        
+        <p><strong>Editar Uma Transação:</strong></p>
+        <ol>
+            <li>Clique no ✏️ (ícone de editar)</li>
+            <li>Altere a categoria</li>
+            <li>Clique em <strong>Salvar</strong></li>
+        </ol>
+        
+        <p><strong>Deletar Uma Transação:</strong></p>
+        <ol>
+            <li>Clique no 🗑️ (ícone de lixeira)</li>
+            <li>Confirme a exclusão</li>
+        </ol>
+        
+        <h2>🏷️ Gerenciamento de Categorias</h2>
+        
+        <h3>Criar Categoria</h3>
+        <ol>
+            <li>Menu → <strong>Categorias</strong></li>
+            <li>Clique em <strong>Nova Categoria</strong></li>
+            <li>Insira um nome descritivo</li>
+            <li>Clique em <strong>Criar</strong></li>
+        </ol>
+        
+        <h3>Exemplos de Boas Categorias</h3>
+        <ul>
+            <li><strong>Alimentação</strong>: Supermercado, Restaurante, Padaria</li>
+            <li><strong>Transporte</strong>: Uber, Combustível, Estacionamento</li>
+            <li><strong>Saúde</strong>: Farmácia, Médico, Academia</li>
+            <li><strong>Casa</strong>: Aluguel, Água/Luz, Internet</li>
+            <li><strong>Diversão</strong>: Cinema, Streaming, Games</li>
+        </ul>
+        
+        <div class="page-break"></div>
+        
+        <h2>🧠 Base de Treinamento</h2>
+        
+        <p>A "Base de Treinamento" é o <strong>cérebro do sistema</strong>. Ela armazena padrões que a IA aprendeu com suas correções.</p>
+        
+        <h3>O que é?</h3>
+        <p>Um arquivo que mapeia descrições de transações → categorias corretas</p>
+        
+        <p><strong>Exemplo:</strong></p>
+        <ul>
+            <li>PADARIA CENTRAL → Alimentação</li>
+            <li>UBER CRISTIANO → Transporte</li>
+            <li>SHOPEE LTDA → Compras</li>
+        </ul>
+        
+        <h3>Acessar a Base</h3>
+        <ol>
+            <li>Menu → <strong>Treinamentos Cadastrados</strong></li>
+            <li>Você verá uma tabela colapsável com todos os padrões</li>
+        </ol>
+        
+        <h3>Adicionar Padrão Manualmente</h3>
+        <ol>
+            <li>Na tela de Treinamentos, vá até o final</li>
+            <li>Preencha:
+                <ul>
+                    <li><strong>Descrição</strong>: O padrão a procurar (ex: "MERCADO")</li>
+                    <li><strong>Categoria</strong>: Qual categoria isso representa</li>
+                </ul>
+            </li>
+            <li>Clique em <strong>Criar</strong></li>
+        </ol>
+        
+        <h3>✅ Dicas da Base de Treinamento</h3>
+        <div class="success">
+            <ul style="margin: 0;">
+                <li>Quanto mais padrões, mais inteligente o sistema fica</li>
+                <li>Use palavras-chave generalizadas (ex: "UBER" ao invés de "UBER SP")</li>
+                <li>Revise regularmente padrões com baixa confiança</li>
+                <li>A base é automática: cada correção adiciona um novo padrão</li>
+            </ul>
+        </div>
+        
+        <h2>🔍 Pesquisa e Filtros</h2>
+        
+        <h3>Pesquisa Rápida</h3>
+        <ol>
+            <li>Em <strong>Rastrear Despesas</strong>, clique em <strong>🔍 Pesquisa</strong></li>
+            <li>Digite uma palavra-chave (ex: "restaurante", "uber")</li>
+            <li>A tabela atualiza em tempo real</li>
+        </ol>
+        
+        <h3>Tipos de Pesquisa</h3>
+        <ul>
+            <li><strong>Por descrição</strong>: "PADARIA" encontra "PADARIA CENTRAL"</li>
+            <li><strong>Por valor</strong>: 15.90 encontra transações de R$ 15,90</li>
+            <li><strong>Por categoria</strong>: "Alimentação" encontra todas daquele tipo</li>
+        </ul>
+        
+        <h2>✏️ Edição em Massa</h2>
+        
+        <p>Altere várias transações de uma vez!</p>
+        
+        <h3>Como Funciona</h3>
+        <ol>
+            <li>Em <strong>Rastrear Despesas</strong>, marque os checkboxes das transações:
+                <ul>
+                    <li>Clique em ☑️ para cada transação</li>
+                    <li>Ou clique em <strong>"Selecionar Tudo"</strong> no topo</li>
+                </ul>
+            </li>
+            <li>Você verá: <strong>X transações selecionadas</strong></li>
+            <li>Clique em <strong>Editar Selecionadas</strong></li>
+            <li>Uma modal aparece: Selecione a <strong>Categoria</strong> desejada</li>
+            <li>Clique em <strong>Atualizar</strong></li>
+        </ol>
+        
+        <h3>Exemplo de Uso</h3>
+        <div class="highlight">
+            <strong>Caso:</strong> Você importou um extrato e o sistema categorizou todas as compras da Amazon como "Compras" mas você quer "Diversos"
+            
+            <p style="margin-top: 10px;"><strong>Solução:</strong></p>
+            <ol style="margin-top: 10px;">
+                <li>Pesquise por "AMAZON"</li>
+                <li>Selecione todos os resultados</li>
+                <li>Clique em "Editar Selecionadas"</li>
+                <li>Selecione "Diversos"</li>
+                <li>Clique em "Atualizar"</li>
+            </ol>
+        </div>
+        
+        <div class="page-break"></div>
+        
+        <h2>💳 Cartões de Crédito</h2>
+        
+        <h3>Adicionar Cartão</h3>
+        <ol>
+            <li>Menu → <strong>Cartões de Crédito</strong></li>
+            <li>Clique em <strong>Novo Cartão</strong></li>
+            <li>Preencha:
+                <ul>
+                    <li><strong>Nome</strong>: Ex: "Nubank Black"</li>
+                    <li><strong>Banco</strong>: Ex: "Nubank"</li>
+                    <li><strong>Dígitos</strong>: Ex: "1234"</li>
+                </ul>
+            </li>
+            <li>Clique em <strong>Criar</strong></li>
+        </ol>
+        
+        <h3>Visualizar Gastos por Cartão</h3>
+        <ul>
+            <li>No <strong>Dashboard</strong>: veja um card com gastos por cartão</li>
+            <li>Em <strong>Rastrear Despesas</strong>: filtre por cartão específico</li>
+        </ul>
+        
+        <h2>💡 Dicas e Boas Práticas</h2>
+        
+        <h3>✅ Para Melhor Categorização</h3>
+        <ol>
+            <li><strong>Seja Consistente</strong>: Use nomes de categoria padronizados</li>
+            <li><strong>Corrija Rapidamente</strong>: Quanto antes corrige, mais o AI aprende</li>
+            <li><strong>Use Padrões Curtos</strong>: "PADARIA" é melhor que "PADARIA CENTRAL DO BAIRRO"</li>
+            <li><strong>Mantenha a Base Limpa</strong>: Revise a base de treinamento periodicamente</li>
+        </ol>
+        
+        <h3>✅ Para Melhor Controle</h3>
+        <ol>
+            <li><strong>Importe Regularmente</strong>: Não deixe de importar extratos por muito tempo</li>
+            <li><strong>Revise Mensalmente</strong>: Faça uma revisão mensal das despesas</li>
+            <li><strong>Crie Subcategorias</strong>: Para gastos com muita variação</li>
+            <li><strong>Use Filtros</strong>: Filtre por categoria para análise</li>
+        </ol>
+        
+        <h3>🔒 Segurança</h3>
+        <div class="warning">
+            <ul style="margin: 0;">
+                <li><strong>Senhas</strong>: Use senhas fortes em suas contas de banco</li>
+                <li><strong>Dados</strong>: Os dados ficam criptografados no servidor</li>
+                <li><strong>Logout</strong>: Sempre faça logout ao sair</li>
+                <li><strong>Compartilhamento</strong>: Cuidado ao compartilhar acesso com membros da família</li>
+            </ul>
+        </div>
+        
+        <div class="page-break"></div>
+        
+        <h2>🐛 Troubleshooting</h2>
+        
+        <h3>❓ "Minhas transações não aparecem"</h3>
+        <div class="highlight">
+            <strong>Solução:</strong>
+            <ol style="margin-top: 10px;">
+                <li>Certifique-se de que você importou um arquivo CSV válido</li>
+                <li>Verifique se o banco está selecionado corretamente (Nubank vs C6)</li>
+                <li>Tente importar novamente com um arquivo diferente</li>
+            </ol>
+        </div>
+        
+        <h3>❓ "A categorização está muito errada"</h3>
+        <div class="highlight">
+            <strong>Solução:</strong>
+            <ol style="margin-top: 10px;">
+                <li>Corrija manualmente algumas transações (pelo menos 10-15)</li>
+                <li>Importe um novo extrato</li>
+                <li>O sistema aprenderá com as correções</li>
+            </ol>
+        </div>
+        
+        <h3>❓ "Não consigo editar em massa"</h3>
+        <div class="highlight">
+            <strong>Solução:</strong>
+            <ol style="margin-top: 10px;">
+                <li>Certifique-se de estar marcando o checkbox corretamente</li>
+                <li>Marque pelo menos 1 transação</li>
+                <li>Clique no botão "Editar Selecionadas"</li>
+            </ol>
+        </div>
+        
+        <h3>❓ "Os filtros não funcionam"</h3>
+        <div class="highlight">
+            <strong>Solução:</strong>
+            <ol style="margin-top: 10px;">
+                <li>Clique em "Limpar Filtros" primeiro</li>
+                <li>Depois aplique novo filtro</li>
+                <li>Se ainda não funcionar, recarregue a página</li>
+            </ol>
+        </div>
+        
+        <h3>❓ "Tenho um erro de login"</h3>
+        <div class="highlight">
+            <strong>Solução:</strong>
+            <ol style="margin-top: 10px;">
+                <li>Limpe o cache do navegador (Cmd+Shift+Del no Windows)</li>
+                <li>Tente fazer login novamente</li>
+                <li>Se o erro persistir, entre em contato com suporte</li>
+            </ol>
+        </div>
+        
+        <h2>❓ FAQ - Perguntas Frequentes</h2>
+        
+        <table>
+            <tr>
+                <th>Pergunta</th>
+                <th>Resposta</th>
+            </tr>
+            <tr>
+                <td><strong>Quanto tempo leva para categorizar?</strong></td>
+                <td>Alguns segundos. O sistema processa em segundo plano.</td>
+            </tr>
+            <tr>
+                <td><strong>Posso ter mais de um usuário?</strong></td>
+                <td>Sim! Cada usuário tem seus próprios dados.</td>
+            </tr>
+            <tr>
+                <td><strong>Os dados são seguros?</strong></td>
+                <td>Sim! Usamos criptografia SSL/TLS.</td>
+            </tr>
+            <tr>
+                <td><strong>Posso exportar meus dados?</strong></td>
+                <td>Sim, através da base de treinamento (baixar CSV).</td>
+            </tr>
+            <tr>
+                <td><strong>Como funciona a IA?</strong></td>
+                <td>Usa algoritmo de Levenshtein Distance para encontrar padrões.</td>
+            </tr>
+        </table>
+        
+        <footer>
+            <p><strong>Bolso em Dia</strong> - Guia de Uso Completo</p>
+            <p>Última atualização: 27 de fevereiro de 2026 | Versão 1.0</p>
+            <p style="margin-top: 20px; color: #999;">Desenvolvido com ❤️ para ajudar você a controlar suas finanças</p>
+        </footer>
+    </div>
+</body>
+</html>
